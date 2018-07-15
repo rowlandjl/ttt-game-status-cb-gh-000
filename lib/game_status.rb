@@ -28,7 +28,7 @@ def won?(board)
       return combo
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
       return combo
-    elsif position_taken?(board, position_1.to_i) == false || position_taken?(board, position_2.to_i) == false || position_taken?(board, position_3) == false
+    elsif position_taken?(board, position_1.to_i) == false || position_taken?(board, position_2.to_i) == false || position_taken?(board, position_3.to_i) == false
       false
     else
       false
