@@ -38,5 +38,8 @@ def draw?(board)
     false
   elsif !won?(board) && !full?(board)
     false
-  end 
+  end
 end
+
+def over?(board)
+end 
