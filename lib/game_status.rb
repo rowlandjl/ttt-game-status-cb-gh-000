@@ -55,4 +55,5 @@ def winner(board)
   win.each do |letter|
     win = letter
   end
+  win 
 end
