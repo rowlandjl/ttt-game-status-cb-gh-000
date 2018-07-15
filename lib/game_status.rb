@@ -54,7 +54,7 @@ def winner(board)
 
 
   win.each do |index|
-    win =
+    win = board[index]
   end
   win
 end
