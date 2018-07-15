@@ -52,9 +52,12 @@ end
 def winner(board)
   win = won?(board)
 
-
-  win.each do |index|
-    win = board[index]
-  end
-  win
+  if win != false
+    win.each do |index|
+      win = board[index]
+    end
+    win
+  else
+    nil
+  end 
 end
