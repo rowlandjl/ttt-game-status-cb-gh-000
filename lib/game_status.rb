@@ -11,8 +11,10 @@ WIN_COMBINATIONS = [
   [1,4,7],  #Second column
   [2,5,8],  #Third column
   [0,4,8],  #diagonal 1
-  [2,4,6]  #diagonal 2 
+  [2,4,6]  #diagonal 2
 ]
 
 def won?(board)
+  WIN_COMBINATIONS.each do |combo|
+  end
 end
