@@ -51,5 +51,9 @@ end
 
 def winner(board)
   if won?(board)
-  end 
+    xcount = 0
+    ocount = 0
+    board.each do |element|
+
+  end
 end
