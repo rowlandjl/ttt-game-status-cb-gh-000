@@ -19,5 +19,9 @@ def won?(board)
     if position_taken?(board, element[0]) == true
       if board[element[0]] == board[element[1]] && board[element[1]] == board[element[2]]
         return WIN_COMBINATIONS[index]
+      end
+    end
+  end
+  return false 
   end
 end
