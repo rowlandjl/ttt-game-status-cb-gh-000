@@ -50,10 +50,7 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board)
-    xcount = 0
-    ocount = 0
-    board.each do |element|
+  win = won?(board)
 
   end
 end
